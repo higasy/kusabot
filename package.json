@@ -10,6 +10,7 @@
     "scoped-http-client": "0.11.0",
     "hubot-diagnostics": "0.0.1",
     "async": "0.9.2",
+    "optparse": "1.0.4",
     "hubot-google-images": "^0.2.6",
     "hubot-google-translate": "^0.2.0",
     "hubot-help": "^0.1.3",
