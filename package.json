@@ -12,6 +12,7 @@
     "async": "0.9.2",
     "optparse": "1.0.4",
     "express": "3.21.2",
+    "connect-multiparty": "1.2.5",
     "hubot-google-images": "^0.2.6",
     "hubot-google-translate": "^0.2.0",
     "hubot-help": "^0.1.3",
