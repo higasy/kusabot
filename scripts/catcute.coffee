@@ -1,5 +1,5 @@
 module.exports = (robot) ->
-  robot.hear /癒されたい/i, (msg) ->
+  robot.hear /癒されたい|癒やされたい|癒して|癒やして/i, (msg) ->
     Flickr = require("flickrapi")
     flickrOptions = {
       api_key: "086a915d18bb5d1a2b4798b136ff641a",
