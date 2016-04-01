@@ -22,7 +22,8 @@ module.exports = (robot) ->
           'https://farm2.staticflickr.com/1552/24982352582_ebf6728753_z.jpg',
           'https://farm2.staticflickr.com/1704/24569685744_50bea5da37_z.jpg',
           'https://farm6.staticflickr.com/5713/23859739175_992c82523b_z.jpg',
-          'https://farm1.staticflickr.com/670/20628720641_27e1112789_z.jpg'
+          'https://farm1.staticflickr.com/670/20628720641_27e1112789_z.jpg',
+          'https://farm6.staticflickr.com/5721/20959929482_7f8493f64a_z.jpg'  
         ]
         for val, i in blacklist
           photos.filter (item, index) ->
