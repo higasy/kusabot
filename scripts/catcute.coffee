@@ -1,5 +1,5 @@
 module.exports = (robot) ->
-  robot.hear /癒されたい|癒やされたい|癒して|癒やして|癒せ|癒やせ|にゃん/i, (msg) ->
+  robot.hear /癒されたい|癒やされたい|癒して|癒やして|癒せ|癒やせ|いやされたい|いやして|いやせ|にゃん/i, (msg) ->
     Flickr = require("flickrapi")
     flickrOptions = {
       api_key: "086a915d18bb5d1a2b4798b136ff641a",
@@ -23,7 +23,7 @@ module.exports = (robot) ->
           'https://farm2.staticflickr.com/1704/24569685744_50bea5da37_z.jpg',
           'https://farm6.staticflickr.com/5713/23859739175_992c82523b_z.jpg',
           'https://farm1.staticflickr.com/670/20628720641_27e1112789_z.jpg',
-          'https://farm6.staticflickr.com/5721/20959929482_7f8493f64a_z.jpg'  
+          'https://farm6.staticflickr.com/5721/20959929482_7f8493f64a_z.jpg'
         ]
         for val, i in blacklist
           photos.filter (item, index) ->
