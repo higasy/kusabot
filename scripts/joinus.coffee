@@ -6,7 +6,9 @@ module.exports = (robot) ->
     fs = require('fs')
     fs.readFile './data/join/joinlist', 'utf8', (err, text) ->
       msg.send '以下の人が参加するよ！'
+      msg.send '========================='
       msg.send text
+      msg.send '========================='
       return
 
   robot.hear /参加者 -r/i, (msg) ->
